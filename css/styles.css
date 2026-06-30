@@ -18,6 +18,8 @@
   --line-3:    #E7E3DC;
   --blue:      #2355C8;
   --blue-dark: #1A44A6;
+  --blue-btn:       #3A6BE0;
+  --blue-btn-hover: #2E59C4;
   --blue-soft: #EDF1FC;
   --blue-tint: #F4F8FF;
   --blue-light:#7FA0F0;
@@ -94,8 +96,8 @@ h1, h2, h3 { margin: 0; }
   line-height: 1;
 }
 .btn .arrow { font-size: 18px; line-height: 1; }
-.btn-primary { background: var(--blue); color: #fff; }
-.btn-primary:hover { background: var(--blue-dark); }
+.btn-primary { background: var(--blue-btn); color: #fff; }
+.btn-primary:hover { background: var(--blue-btn-hover); }
 .btn-outline { background: none; color: var(--ink); border-color: #C9C5BF; }
 .btn-outline:hover { border-color: var(--ink); }
 .btn-white { background: #fff; color: var(--blue); }
