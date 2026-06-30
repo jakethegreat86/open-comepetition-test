@@ -1,0 +1,11 @@
+# Static site — no build step. Publish the repository root as-is.
+[build]
+  publish = "."
+  command = ""
+
+# Single-page app: the two views are toggled client-side via hash routing,
+# but every real path is served by index.html so deep links resolve.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
